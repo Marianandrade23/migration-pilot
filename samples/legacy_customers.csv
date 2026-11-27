@@ -1,0 +1,201 @@
+CUST_NO,CUST_NM,ADDR1,CTY,ST,ZIP,PH1,EMAIL_ADR,CR_LMT,DT1,STAT_CD,SLS_REP,TERMS_CD
+100000,Harbor Dairy 1,6478 Main St,Austin,tx,73301,(748) 296-6991,ap@harbor1.com,"$237,000.00",20120214,A,J. Smith,COD
+100001,River Bakery 2,2038 Oak St,Green Bay,WI,54301,(796) 263-7499,ap@river2.com,"$61,000.00",07/05/2016,A,A. Garcia,N30
+100002,Cedar Retail Co 3,1606 Elm St,Chicago,IL,60601,7772614374,ap@cedar3.com,141000,20240615,A,A. Garcia,N45
+100003,,9421 Mason St,Chicago,IL,60601,551.946.8353,ap@badger4.com,"$160,000.00",20200706,A,K. Patel,COD
+100004,Badger Logistics 5,9153 Elm St,Green Bay,WI,54301,5215486737,ap@badger5.com,209000,20130209,A,J. Smith,N30
+100005,River Bakery 6,7311 Mason St,Hartford,CT,6103,8845551369,ap@river6.com,"$95,000.00",20190107,A,A. Garcia,COD
+100006,Maple Packaging 7,1330 Oak St,Madison,WI,53703,7624843243,ap@maple7.com,145000,20230712,I,A. Garcia,N30
+100007,Harbor Dairy 8,3810 Oak St,Newark,nj,7102,803.386.5304,ap@harbor8.com,42000,20200620,I,J. Smith,COD
+100008,Granite Supply 9,6546 Lake St,Madison,wi,53703,849-610-2019,ap@granite9.com,58000,02/11/2014,A,A. Garcia,N30
+100009,River Bakery 10,427 Main St,Austin,TX,73301,828.585.3433,ap@river10.com,93000,20190204,I,K. Patel,COD
+100010,Prairie Goods 11,1417 Oak St,Portland,me,4101,5509585337,ap@prairie11.com,"$217,000.00",20200107,A,J. Smith,N60
+100011,Prairie Goods 12,8503 Mason St,Boston,MA,2108,564.990.4650,ap@prairie12.com,"$167,000.00",20240427,A,A. Garcia,N45
+100012,Cedar Retail Co 13,484 Main St,Portland,ME,4101,683.465.4172,accounts payable,211000,02/08/2017,A,A. Garcia,N60
+100013,Maple Packaging 14,41 Lake St,Chicago,IL,60601,(552) 858-2389,ap@maple14.com,"$237,000.00",20190314,A,K. Patel,COD
+100014,Badger Logistics 15,2612 Oak St,Madison,WI,53703,228-354-8624,ap@badger15.com,216000,06/05/2022,A,J. Smith,N45
+100015,Summit Brewing 16,3467 Main St,Madison,WI,53703,499.713.4940,ap@summit16.com,144000,20250302,I,K. Patel,N45
+100016,Union Beverages 17,8374 Main St,Newark,NJ,7102,387-823-1064,ap@union17.com,41000,12/04/2021,A,K. Patel,N30
+100017,Summit Brewing 18,3144 Mason St,Green Bay,wi,54301,(300) 719-8408,ap@summit18.com,"$199,000.00",06/20/2019,A,K. Patel,COD
+100018,Union Beverages 19,4263 Elm St,Chicago,IL,60601,4076583246,ap@union19.com,105000,02/22/2017,A,A. Garcia,N60
+100019,Harbor Dairy 20,6009 Oak St,Boston,MA,2108,(340) 678-4597,ap@harbor20.com,231000,11/27/2014,A,K. Patel,COD
+100020,Granite Supply 21,3217 Mason St,Austin,TX,73301,939.574.1319,ap@granite21.com,122000,20230113,A,M. Chen,N30
+100021,Summit Brewing 22,1726 Main St,Boston,MA,2108,240.997.3974,ap@summit22.com,38000,20251127,A,K. Patel,N60
+100022,Prairie Goods 23,952 Oak St,Boston,MA,2108,(274) 475-1275,ap@prairie23.com,"$210,000.00",20210403,I,K. Patel,N30
+100023,Union Beverages 24,6854 Mason St,Austin,TX,73301,(244) 739-4906,ap@union24.com,"$46,000.00",20140410,A,A. Garcia,N60
+100024,Union Beverages 25,2924 Mason St,Portland,ME,4101,(218) 456-1605,ap@union25.com,"$9,000.00",20200808,A,K. Patel,COD
+100025,Union Beverages 26,5052 Oak St,Madison,WI,53703,5504033289,ap@union26.com,"$93,000.00",20120221,A,J. Smith,N30
+100026,Union Beverages 27,4629 Elm St,Madison,WI,53703,500-246-8527,ap@union27.com,73000,20120512,I,M. Chen,N45
+100027,Prairie Goods 28,3579 Mason St,Green Bay,WI,54301,5435902374,ap@prairie28.com,"$76,000.00",09/25/2015,A,J. Smith,N45
+100028,River Bakery 29,692 Lake St,Madison,wi,53703,(511) 844-4814,ap@river29.com,"$154,000.00",20221226,A,K. Patel,N45
+100029,River Bakery 30,2381 Main St,Hartford,CT,6103,932-725-8032,ap@river30.com,"$237,000.00",11/19/2025,A,J. Smith,N45
+100030,Badger Logistics 31,6180 Lake St,Austin,TX,73301,842-219-9707,ap@badger31.com,"$130,000.00",02/24/2019,A,J. Smith,COD
+100031,Badger Logistics 32,4360 Oak St,Hartford,CT,6103,4104368542,ap@badger32.com,"$221,000.00",11/10/2019,A,A. Garcia,N30
+100032,Cedar Retail Co 33,4170 Mason St,Newark,NJ,7102,(336) 212-8903,ap@cedar33.com,"$129,000.00",20230422,A,M. Chen,COD
+100033,Maple Packaging 34,1951 Elm St,Portland,ME,4101,287.684.1286,ap@maple34.com,24000,07/07/2016,A,J. Smith,N45
+100034,Cedar Retail Co 35,2182 Elm St,Hartford,CT,6103,720.486.2846,ap@cedar35.com,132000,01/06/2018,I,K. Patel,COD
+100035,Harbor Dairy 36,6828 Mason St,Hartford,CT,6103,323.539.1028,ap@harbor36.com,91000,04/23/2013,I,M. Chen,N60
+100036,Badger Logistics 37,6447 Lake St,Austin,TX,73301,8032786909,ap@badger37.com,"$198,000.00",20160202,A,A. Garcia,N45
+100037,Granite Supply 38,8381 Mason St,Hartford,CT,6103,5826381475,ap@granite38.com,"$238,000.00",20230202,A,A. Garcia,N60
+100038,North Lake Foods 39,9022 Oak St,Portland,ME,4101,624.551.5616,ap@north39.com,194000,20181108,A,K. Patel,N30
+100039,Harbor Dairy 40,1241 Oak St,Newark,NJ,7102,7097634604,ap@harbor40.com,90000,03/18/2018,A,A. Garcia,N60
+100040,Cedar Retail Co 41,3927 Mason St,Boston,MA,2108,7834061329,ap@cedar41.com,"$103,000.00",05/11/2018,A,M. Chen,N45
+100041,Badger Logistics 42,4450 Oak St,Chicago,IL,60601,861.656.8075,ap@badger42.com,"$222,000.00",20140114,I,K. Patel,N30
+100042,Granite Supply 43,8658 Lake St,Boston,MA,2108,454-311-4666,ap@granite43.com,"$43,000.00",20251223,A,J. Smith,N30
+100043,Summit Brewing 44,9338 Main St,Newark,NJ,7102,5113315125,ap@summit44.com,"$183,000.00",02/10/2013,A,A. Garcia,N30
+100044,Union Beverages 45,4950 Lake St,Green Bay,WI,54301,5238604970,ap@union45.com,"$139,000.00",20120723,A,A. Garcia,COD
+100045,Badger Logistics 46,4224 Oak St,Madison,WI,53703,(579) 432-9076,ap@badger46.com,91000,11/13/2017,A,M. Chen,N30
+100046,Maple Packaging 47,3293 Mason St,Chicago,IL,60601,398-436-8620,ap@maple47.com,199000,10/16/2013,I,K. Patel,COD
+100047,River Bakery 48,2408 Lake St,Green Bay,wi,54301,2248103325,ap@river48.com,"$18,000.00",20140715,A,J. Smith,N45
+100048,Summit Brewing 49,3049 Elm St,Austin,TX,73301,232.519.7203,ap@summit49.com,"$89,000.00",20130103,A,K. Patel,N30
+100049,Granite Supply 50,5853 Mason St,Chicago,IL,60601,6422891807,ap@granite50.com,100000,20150612,A,K. Patel,N45
+100050,North Lake Foods 51,6163 Main St,Madison,WI,53703,(263) 463-4193,ap@north51.com,160000,05/11/2017,A,M. Chen,N60
+100051,North Lake Foods 52,9767 Main St,Hartford,ct,6103,4393098785,ap@north52.com,203000,20240514,A,K. Patel,N45
+100052,Prairie Goods 53,2489 Elm St,Green Bay,WI,54301,(527) 671-6928,ap@prairie53.com,55000,20240308,A,J. Smith,COD
+100053,Harbor Dairy 54,6998 Main St,Austin,TX,73301,471-839-2377,ap@harbor54.com,112000,08/06/2023,A,K. Patel,N45
+100054,Prairie Goods 55,4823 Mason St,Boston,MA,2108,581-460-5265,ap@prairie55.com,"$117,000.00",20150405,I,A. Garcia,N60
+100055,Granite Supply 56,4133 Oak St,Boston,MA,2108,4368652647,ap@granite56.com,"$14,000.00",20190427,I,J. Smith,N60
+100056,Badger Logistics 57,835 Oak St,Chicago,IL,60601,797.398.2230,ap@badger57.com,"$136,000.00",10/09/2019,A,M. Chen,N45
+100057,,5580 Oak St,Green Bay,wi,54301,(461) 239-4333,ap@cedar58.com,88000,20220606,A,J. Smith,COD
+100058,Badger Logistics 59,6697 Main St,Portland,ME,4101,(879) 763-3532,ap@badger59.com,46000,20230514,A,K. Patel,N30
+100059,River Bakery 60,5862 Lake St,Hartford,CT,6103,9855724230,ap@river60.com,"$191,000.00",20120706,A,J. Smith,COD
+100060,Maple Packaging 61,2673 Oak St,Austin,tx,73301,(764) 345-7499,ap@maple61.com,164000,09/06/2023,A,A. Garcia,N45
+100061,Badger Logistics 62,6297 Lake St,Boston,MA,2108,(402) 508-3075,ap@badger62.com,128000,20121021,A,A. Garcia,N45
+100062,River Bakery 63,3223 Lake St,Madison,WI,53703,423-242-7549,ap@river63.com,"$103,000.00",04/24/2014,A,J. Smith,N60
+100063,Granite Supply 64,9832 Lake St,Boston,MA,2108,8429966017,ap@granite64.com,"$83,000.00",20180722,A,K. Patel,N45
+100064,North Lake Foods 65,8029 Lake St,Green Bay,WI,54301,981-833-8508,ap@north65.com,126000,20130205,A,J. Smith,COD
+100065,North Lake Foods 66,2144 Main St,Green Bay,WI,54301,(521) 996-9380,ap@north66.com,197000,03/01/2022,I,J. Smith,N45
+100066,Maple Packaging 67,4726 Oak St,Newark,NJ,7102,938.426.2073,ap@maple67.com,198000,20140620,I,K. Patel,N45
+100067,Union Beverages 68,7876 Oak St,Hartford,CT,6103,830.718.4889,ap@union68.com,"$100,000.00",20140706,A,K. Patel,N45
+100068,Badger Logistics 69,8705 Main St,Hartford,CT,6103,(568) 663-9543,ap@badger69.com,142000,20230609,I,A. Garcia,N60
+100069,Badger Logistics 70,7256 Oak St,Austin,TX,73301,961.249.5855,ap@badger70.com,168000,01/24/2023,A,M. Chen,COD
+100070,Union Beverages 71,5975 Main St,Madison,wi,53703,(432) 827-1746,ap@union71.com,5000,20160217,A,K. Patel,N60
+100071,Summit Brewing 72,6010 Elm St,Newark,NJ,7102,362-337-1231,ap@summit72.com,43000,02/21/2013,I,M. Chen,COD
+100072,North Lake Foods 73,929 Elm St,Hartford,CT,6103,8088618270,ap@north73.com,"$68,000.00",01/18/2012,A,A. Garcia,N45
+100073,Badger Logistics 74,212 Elm St,Green Bay,WI,54301,401-345-7769,ap@badger74.com,160000,20251006,A,J. Smith,COD
+100074,Granite Supply 75,7164 Lake St,Green Bay,wi,54301,871-663-3873,ap@granite75.com,"$31,000.00",20220104,I,M. Chen,N30
+100075,Union Beverages 76,7154 Elm St,Hartford,CT,6103,(502) 857-4555,ap@union76.com,"$230,000.00",05/08/2014,I,M. Chen,N45
+100076,Cedar Retail Co 77,9860 Oak St,Madison,WI,53703,8459099787,ap@cedar77.com,"$125,000.00",01/14/2025,A,M. Chen,N45
+100077,River Bakery 78,9600 Main St,Madison,WI,53703,(375) 348-1539,ap@river78.com,"$33,000.00",03/23/2017,A,A. Garcia,N30
+100078,North Lake Foods 79,1087 Elm St,Boston,MA,2108,4047462080,ap@north79.com,"$32,000.00",02/02/2015,I,J. Smith,N60
+100079,Badger Logistics 80,2183 Main St,Portland,ME,4101,861.409.5824,ap@badger80.com,113000,20120609,A,M. Chen,N60
+100080,Prairie Goods 81,517 Lake St,Portland,me,4101,731.991.2610,ap@prairie81.com,"$125,000.00",10/07/2020,A,M. Chen,N45
+100081,North Lake Foods 82,8587 Oak St,Madison,WI,53703,968.255.1071,ap@north82.com,29000,20230316,I,M. Chen,N45
+100082,Summit Brewing 83,3803 Lake St,Hartford,CT,6103,8519852325,ap@summit83.com,"$206,000.00",06/12/2022,A,K. Patel,N30
+100083,North Lake Foods 84,6104 Oak St,Madison,WI,53703,638-758-9211,ap@north84.com,"$102,000.00",03/18/2019,A,M. Chen,N45
+100084,Union Beverages 85,5307 Oak St,Portland,ME,4101,905-991-5214,ap@union85.com,90000,12/08/2022,A,A. Garcia,N45
+100085,Cedar Retail Co 86,9887 Elm St,Chicago,IL,60601,441.535.4101,ap@cedar86.com,"$249,000.00",11/04/2014,A,A. Garcia,N60
+100086,Granite Supply 87,4496 Oak St,Hartford,ct,6103,3094874382,ap@granite87.com,"$123,000.00",07/23/2018,A,M. Chen,COD
+100087,Harbor Dairy 88,4224 Elm St,Green Bay,WI,54301,2059584969,ap@harbor88.com,151000,04/22/2025,A,J. Smith,COD
+100087,Cedar Retail Co 89,4266 Main St,Madison,WI,53703,448.609.3563,ap@cedar89.com,113000,20190120,A,A. Garcia,N60
+100089,Granite Supply 90,8035 Main St,Green Bay,wi,54301,756-423-3635,ap@granite90.com,"$137,000.00",10/15/2025,A,J. Smith,N60
+100090,Granite Supply 91,7496 Oak St,Austin,TX,73301,(388) 601-9417,ap@granite91.com,162000,20220109,A,J. Smith,N30
+100091,Granite Supply 92,6900 Mason St,Boston,MA,2108,3114295972,ap@granite92.com,"$245,000.00",07/15/2024,A,J. Smith,N45
+100092,Union Beverages 93,3712 Oak St,Portland,ME,4101,854.623.8669,ap@union93.com,"$199,000.00",08/12/2024,A,K. Patel,N60
+100093,Harbor Dairy 94,7900 Main St,Madison,WI,53703,487.566.5013,ap@harbor94.com,127000,10/21/2018,A,M. Chen,N45
+100094,Granite Supply 95,944 Main St,Hartford,CT,6103,532.343.9694,ap@granite95.com,"$167,000.00",01/07/2022,A,M. Chen,N30
+100095,Summit Brewing 96,3051 Lake St,Newark,NJ,7102,356-413-7594,ap@summit96.com,"$161,000.00",20220926,A,A. Garcia,N30
+100096,Badger Logistics 97,9104 Main St,Portland,ME,4101,4393428753,ap@badger97.com,19000,20190323,A,A. Garcia,N30
+100097,Cedar Retail Co 98,7677 Elm St,Newark,NJ,7102,5036767143,ap@cedar98.com,"$112,000.00",11/12/2014,A,J. Smith,N60
+100098,Union Beverages 99,7942 Lake St,Boston,MA,2108,3472344495,ap@union99.com,37000,20131112,A,A. Garcia,N60
+100099,Cedar Retail Co 100,6930 Mason St,Madison,WI,53703,4964996819,ap@cedar100.com,90000,09/12/2025,A,J. Smith,N60
+100100,Cedar Retail Co 101,4912 Oak St,Chicago,IL,60601,8502891656,ap@cedar101.com,146000,20201002,A,J. Smith,N30
+100101,Maple Packaging 102,9982 Main St,Chicago,IL,60601,756-826-7161,ap@maple102.com,"$165,000.00",20150122,A,A. Garcia,N30
+100102,North Lake Foods 103,6917 Main St,Newark,NJ,7102,871-213-7043,ap@north103.com,84000,20250506,A,J. Smith,COD
+100103,Maple Packaging 104,9308 Elm St,Green Bay,wi,54301,3219927898,ap@maple104.com,"$119,000.00",07/20/2022,A,K. Patel,N30
+100104,Maple Packaging 105,3487 Oak St,Boston,MA,2108,(637) 204-1152,ap@maple105.com,"$224,000.00",20250205,A,A. Garcia,COD
+100105,North Lake Foods 106,6004 Oak St,Newark,NJ,7102,2865009160,ap@north106.com,243000,12/02/2012,A,J. Smith,COD
+100106,Prairie Goods 107,9842 Oak St,Hartford,CT,6103,698.823.1979,ap@prairie107.com,247000,11/06/2019,I,J. Smith,N60
+100107,Granite Supply 108,7824 Lake St,Newark,NJ,7102,663.478.6470,ap@granite108.com,20000,10/24/2025,I,M. Chen,COD
+100108,Granite Supply 109,6356 Lake St,Chicago,IL,60601,(439) 662-5641,ap@granite109.com,72000,03/19/2018,A,A. Garcia,N45
+100109,Union Beverages 110,8201 Mason St,Hartford,CT,6103,7527668942,ap@union110.com,"$56,000.00",20161002,A,A. Garcia,N60
+100110,Granite Supply 111,7542 Elm St,Green Bay,wi,54301,563-990-2026,ap@granite111.com,153000,20250911,A,A. Garcia,N45
+100111,Summit Brewing 112,1520 Oak St,Chicago,IL,60601,4965716880,ap@summit112.com,"$204,000.00",20150116,I,M. Chen,COD
+100112,Harbor Dairy 113,5183 Elm St,Boston,ma,2108,(487) 731-1337,ap@harbor113.com,57000,20211007,I,M. Chen,COD
+100113,Maple Packaging 114,9727 Elm St,Boston,MA,2108,460-238-6551,ap@maple114.com,"$51,000.00",20120102,I,K. Patel,COD
+100114,River Bakery 115,6520 Main St,Boston,MA,2108,292-463-6221,ap@river115.com,27000,08/28/2014,A,A. Garcia,N45
+100115,North Lake Foods 116,4202 Mason St,Newark,nj,7102,766.228.1770,ap@north116.com,136000,20120205,A,A. Garcia,N60
+100116,Badger Logistics 117,7722 Mason St,Portland,ME,4101,5993277143,ap@badger117.com,48000,03/22/2015,A,A. Garcia,N30
+100117,Summit Brewing 118,1284 Elm St,Newark,NJ,7102,(967) 343-8327,ap@summit118.com,242000,01/21/2025,A,M. Chen,N60
+100118,Maple Packaging 119,1904 Mason St,Chicago,il,60601,426-953-1929,ap@maple119.com,"$187,000.00",20190309,A,A. Garcia,N30
+100119,River Bakery 120,4868 Mason St,Hartford,CT,6103,466.702.2789,ap@river120.com,236000,03/17/2013,A,A. Garcia,COD
+100120,Badger Logistics 121,4233 Oak St,Hartford,CT,6103,642-467-4910,ap@badger121.com,N/A,20180302,A,J. Smith,COD
+100121,Union Beverages 122,2306 Lake St,Austin,tx,73301,739.493.4044,ap@union122.com,15000,05/19/2015,A,A. Garcia,N45
+100122,Summit Brewing 123,9851 Main St,Newark,NJ,7102,823.948.9117,ap@summit123.com,"$49,000.00",11/23/2021,A,A. Garcia,N30
+100123,Union Beverages 124,6696 Main St,Boston,MA,2108,5555435616,ap@union124.com,8000,20240805,A,M. Chen,N30
+100124,Cedar Retail Co 125,9429 Elm St,Newark,NJ,7102,(564) 732-8303,ap@cedar125.com,"$35,000.00",20250625,A,J. Smith,N60
+100125,Maple Packaging 126,7324 Elm St,Boston,ma,2108,750-337-1338,ap@maple126.com,"$27,000.00",20140210,A,J. Smith,N30
+100126,Summit Brewing 127,4293 Main St,Boston,MA,2108,852-790-8601,ap@summit127.com,"$184,000.00",02/23/2017,A,J. Smith,COD
+100127,River Bakery 128,8214 Mason St,Portland,me,4101,324-615-3243,ap@river128.com,"$225,000.00",20221015,A,J. Smith,COD
+100128,River Bakery 129,9886 Elm St,Madison,wi,53703,253.995.6951,ap@river129.com,66000,20230727,I,J. Smith,N60
+100129,Cedar Retail Co 130,4094 Lake St,Newark,NJ,7102,211-573-2786,ap@cedar130.com,88000,09/22/2015,A,K. Patel,COD
+100130,North Lake Foods 131,669 Main St,Portland,ME,4101,(835) 472-5479,ap@north131.com,30000,20130901,A,J. Smith,N60
+100131,Prairie Goods 132,5704 Oak St,Boston,ma,2108,(808) 726-5397,ap@prairie132.com,"$124,000.00",02/17/2019,I,K. Patel,N60
+100132,Summit Brewing 133,1449 Elm St,Hartford,CT,6103,6658244630,ap@summit133.com,145000,20190910,A,M. Chen,N30
+100133,Cedar Retail Co 134,3640 Oak St,Chicago,IL,60601,(592) 799-7495,ap@cedar134.com,"$241,000.00",20250411,A,M. Chen,N45
+100134,North Lake Foods 135,366 Oak St,Hartford,CT,6103,(820) 556-8208,ap@north135.com,104000,12/25/2017,A,A. Garcia,COD
+100135,Cedar Retail Co 136,2309 Oak St,Austin,TX,73301,4837302557,ap@cedar136.com,"$73,000.00",20180201,A,J. Smith,COD
+100136,River Bakery 137,2461 Lake St,Madison,WI,53703,4868362819,ap@river137.com,120000,20161212,A,K. Patel,N60
+100137,Maple Packaging 138,6246 Lake St,Green Bay,WI,54301,7495113375,ap@maple138.com,"$152,000.00",06/11/2013,I,A. Garcia,COD
+100138,North Lake Foods 139,787 Mason St,Green Bay,WI,54301,709.507.9789,ap@north139.com,163000,20200924,A,M. Chen,N30
+100139,Maple Packaging 140,180 Main St,Austin,TX,73301,3016197134,ap@maple140.com,"$171,000.00",20150716,A,M. Chen,N30
+100140,Cedar Retail Co 141,5221 Mason St,Newark,NJ,7102,(518) 724-3876,billing@,233000,20230627,A,M. Chen,N45
+100141,Granite Supply 142,2998 Main St,Chicago,IL,60601,(817) 309-6786,ap@granite142.com,"$182,000.00",01/10/2024,I,K. Patel,N30
+100142,North Lake Foods 143,3231 Oak St,Green Bay,WI,54301,766-780-5358,ap@north143.com,55000,02/05/2021,A,J. Smith,N30
+100143,Badger Logistics 144,2804 Elm St,Boston,MA,2108,(678) 827-8055,ap@badger144.com,8000,20141208,A,J. Smith,N60
+100144,River Bakery 145,1042 Mason St,Boston,MA,2108,(838) 594-1320,ap@river145.com,232000,01/15/2021,A,A. Garcia,N45
+100145,Harbor Dairy 146,9627 Oak St,Green Bay,WI,54301,666.510.7854,ap@harbor146.com,232000,20130422,A,A. Garcia,COD
+100146,Granite Supply 147,7946 Main St,Hartford,CT,6103,449-289-3842,ap@granite147.com,"$96,000.00",20120513,A,K. Patel,N60
+100147,Badger Logistics 148,2029 Lake St,Madison,WI,53703,5597675013,ap@badger148.com,124000,04/14/2017,A,J. Smith,N60
+100148,Summit Brewing 149,2137 Main St,Newark,NJ,7102,7573308263,ap@summit149.com,"$219,000.00",06/12/2014,A,K. Patel,N45
+100149,Maple Packaging 150,8281 Oak St,Hartford,CT,6103,663.891.3145,ap@maple150.com,235000,06/18/2021,A,A. Garcia,N45
+100150,Union Beverages 151,1508 Elm St,Boston,MA,2108,(953) 990-7304,ap@union151.com,"$173,000.00",01/13/2016,A,A. Garcia,N60
+100151,Badger Logistics 152,1125 Elm St,Chicago,IL,60601,712-976-5865,ap@badger152.com,188000,04/10/2013,I,K. Patel,N60
+100152,Granite Supply 153,7619 Oak St,Austin,TX,73301,380.230.7006,ap@granite153.com,"$234,000.00",20221223,A,K. Patel,N60
+100153,Harbor Dairy 154,4785 Main St,Boston,MA,2108,(823) 951-4591,ap@harbor154.com,"$108,000.00",20180425,A,J. Smith,N60
+100154,River Bakery 155,3739 Elm St,Newark,NJ,7102,733.460.8125,ap@river155.com,"$244,000.00",11/10/2025,I,J. Smith,N45
+100155,North Lake Foods 156,5229 Oak St,Boston,MA,2108,5539672411,ap@north156.com,195000,10/27/2023,A,J. Smith,N60
+100156,Maple Packaging 157,5585 Elm St,Madison,WI,53703,(843) 840-8418,ap@maple157.com,"$178,000.00",11/17/2018,A,A. Garcia,N30
+100157,Harbor Dairy 158,8962 Oak St,Hartford,CT,6103,852.441.9911,ap@harbor158.com,"$68,000.00",06/14/2017,A,M. Chen,N45
+100158,Maple Packaging 159,7919 Oak St,Newark,NJ,7102,206-727-8291,ap@maple159.com,169000,05/05/2023,A,A. Garcia,N60
+100159,Union Beverages 160,6967 Oak St,Boston,MA,2108,3588138555,ap@union160.com,"$217,000.00",20230501,A,J. Smith,N30
+100160,Prairie Goods 161,3239 Main St,Hartford,CT,6103,658.315.3643,ap@prairie161.com,124000,03/18/2016,A,K. Patel,COD
+100161,Cedar Retail Co 162,9244 Mason St,Boston,ma,2108,700-644-9001,ap@cedar162.com,144000,20120603,A,M. Chen,N45
+100162,Harbor Dairy 163,463 Main St,Boston,MA,2108,348-503-7027,ap@harbor163.com,"$168,000.00",20131227,A,M. Chen,COD
+100163,Cedar Retail Co 164,5255 Oak St,Newark,NJ,7102,764-578-5154,ap@cedar164.com,"$19,000.00",20211127,I,A. Garcia,COD
+100164,Maple Packaging 165,2590 Mason St,Madison,WI,53703,841-282-3324,ap@maple165.com,40000,07/03/2022,I,K. Patel,N45
+100165,Cedar Retail Co 166,55 Main St,Chicago,IL,60601,723.635.3345,ap@cedar166.com,"$23,000.00",20201214,A,J. Smith,N45
+100166,Granite Supply 167,4855 Main St,Newark,NJ,7102,776-891-6703,ap@granite167.com,26000,08/14/2020,I,J. Smith,N30
+100167,River Bakery 168,4876 Elm St,Austin,TX,73301,577.692.3242,ap@river168.com,"$226,000.00",20250408,A,A. Garcia,N60
+100168,Cedar Retail Co 169,8693 Oak St,Madison,WI,53703,605-467-2871,ap@cedar169.com,"$51,000.00",12/04/2020,I,M. Chen,N30
+100169,Union Beverages 170,4131 Lake St,Chicago,IL,60601,(669) 431-9867,ap@union170.com,"$193,000.00",07/22/2025,I,A. Garcia,N30
+100170,Maple Packaging 171,6431 Elm St,Boston,MA,2108,(396) 776-8784,ap@maple171.com,"$40,000.00",20180402,A,A. Garcia,COD
+100171,Badger Logistics 172,2231 Lake St,Hartford,CT,6103,(289) 836-4303,ap@badger172.com,191000,20140624,I,J. Smith,N60
+100172,Summit Brewing 173,6121 Elm St,Boston,MA,2108,(565) 939-9011,ap@summit173.com,159000,20130618,I,J. Smith,N30
+100173,Prairie Goods 174,5815 Oak St,Chicago,IL,60601,(221) 795-8206,ap@prairie174.com,10000,20130226,A,M. Chen,COD
+100174,River Bakery 175,4110 Elm St,Newark,NJ,7102,(979) 475-8275,ap@river175.com,"$11,000.00",09/16/2019,I,J. Smith,N30
+100175,River Bakery 176,9839 Lake St,Newark,NJ,7102,3629098349,ap@river176.com,"$63,000.00",06/17/2017,A,A. Garcia,N30
+100176,Harbor Dairy 177,5924 Lake St,Chicago,IL,60601,679.597.6794,ap@harbor177.com,90000,04/01/2017,A,J. Smith,N45
+100177,Prairie Goods 178,6308 Mason St,Newark,nj,7102,468-565-9653,ap@prairie178.com,"$183,000.00",20250425,A,J. Smith,N60
+100178,Summit Brewing 179,2322 Main St,Hartford,CT,6103,981-549-6941,ap@summit179.com,228000,20170123,A,K. Patel,N60
+100179,Summit Brewing 180,5731 Oak St,Chicago,il,60601,2078878424,ap@summit180.com,106000,10/03/2014,A,M. Chen,N60
+100180,Badger Logistics 181,3126 Elm St,Austin,TX,73301,798.383.5984,ap@badger181.com,96000,20230227,A,A. Garcia,N60
+100181,Union Beverages 182,388 Oak St,Hartford,CT,6103,442-921-1328,ap@union182.com,107000,10/10/2015,A,J. Smith,N45
+100182,Badger Logistics 183,1213 Elm St,Green Bay,WI,54301,339.205.4083,ap@badger183.com,"$142,000.00",06/01/2022,A,J. Smith,COD
+100183,River Bakery 184,5544 Oak St,Madison,wi,53703,624.246.2428,ap@river184.com,131000,08/28/2016,A,M. Chen,N60
+100184,Granite Supply 185,5403 Oak St,Green Bay,wi,54301,(359) 415-3337,ap@granite185.com,213000,06/18/2018,A,M. Chen,N45
+100185,Maple Packaging 186,528 Mason St,Hartford,CT,6103,762.923.8424,ap@maple186.com,138000,20140501,A,M. Chen,N45
+100186,Granite Supply 187,1483 Main St,Chicago,IL,60601,325-261-9900,ap@granite187.com,"$147,000.00",10/12/2016,I,A. Garcia,N30
+100187,Summit Brewing 188,7244 Lake St,Austin,TX,73301,552-598-8538,ap@summit188.com,"$87,000.00",11/24/2013,A,K. Patel,N60
+100188,Summit Brewing 189,9253 Lake St,Green Bay,WI,54301,(584) 872-4671,ap@summit189.com,10000,07/08/2023,A,M. Chen,COD
+100189,Prairie Goods 190,8179 Oak St,Hartford,CT,6103,360-688-5379,ap@prairie190.com,81000,20130601,I,A. Garcia,N45
+100190,River Bakery 191,9800 Lake St,Austin,TX,73301,(253) 414-6904,ap@river191.com,203000,07/28/2014,I,M. Chen,N30
+100191,Harbor Dairy 192,164 Oak St,Boston,MA,2108,(354) 714-6761,ap@harbor192.com,48000,20220703,A,K. Patel,N60
+100192,River Bakery 193,3853 Oak St,Green Bay,WI,54301,906-215-1620,ap@river193.com,"$134,000.00",07/23/2021,A,J. Smith,N60
+100193,Badger Logistics 194,1983 Lake St,Boston,MA,2108,738-638-1042,ap@badger194.com,"$62,000.00",12/18/2022,A,K. Patel,N30
+100194,Summit Brewing 195,3679 Main St,Austin,TX,73301,381.215.5335,ap@summit195.com,"$22,000.00",20200114,A,M. Chen,N30
+100195,Union Beverages 196,4632 Elm St,Portland,ME,4101,6209635400,ap@union196.com,86000,20180313,I,A. Garcia,N30
+100196,River Bakery 197,8219 Mason St,Chicago,IL,60601,947-586-4944,ap@river197.com,"$174,000.00",10/26/2025,I,J. Smith,COD
+100197,Maple Packaging 198,9003 Mason St,Austin,TX,73301,7912008757,ap@maple198.com,92000,20151126,A,J. Smith,COD
+100198,River Bakery 199,5287 Main St,Hartford,CT,6103,756.880.4657,ap@river199.com,237000,20251212,A,A. Garcia,N30
+100199,Union Beverages 200,3366 Elm St,Austin,TX,73301,574-444-3823,ap@union200.com,174000,11/27/2014,A,M. Chen,COD
