@@ -6,7 +6,7 @@ An AI agent that moves data between business systems, checks that nothing gets l
 
 ## Why
 
-Moving data from an old system to a new one, such an old ERP into a CRM, is slow and risky. Column names are cryptic (`KUNNR`, `DT1`), the data is messy, and one mistake can lose records. MigrationPilot does the tedious parts and asks a human whenever it isn't sure.
+Moving data from an old system to a new one, such an old ERP into a CRM, is slow and risky. MigrationPilot does the tedious parts and asks a human whenever it isn't sure.
 
 ## How it works
 
