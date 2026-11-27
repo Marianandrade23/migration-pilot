@@ -1,0 +1,182 @@
+{
+  "version": 1,
+  "aliases": {
+    "BILLADDR1": "BillingStreet",
+    "BILLCITY": "BillingCity",
+    "BILLSTATE": "BillingState",
+    "BILLZIP": "BillingPostalCode",
+    "COMPANYNAME": "Name",
+    "CREDITLIMIT": "CreditLimit__c",
+    "DATECREATED": "CustomerSince__c",
+    "ENTITYID": "AccountNumber",
+    "ERDAT": "CustomerSince__c",
+    "ISACTIVE": "IsActive__c",
+    "KLIMK": "CreditLimit__c",
+    "KUNNR": "AccountNumber",
+    "ORT01": "BillingCity",
+    "PSTLZ": "BillingPostalCode",
+    "REGIO": "BillingState",
+    "SALESREP": "SalesRep__c",
+    "SMTP_ADDR": "Email__c",
+    "STRAS": "BillingStreet",
+    "TELF1": "Phone",
+    "ZTERM": "PaymentTerms__c",
+    "ZZSALESREP": "SalesRep__c",
+    "ZZSTATUS": "IsActive__c"
+  },
+  "ignore": [],
+  "changelog": [
+    {
+      "rule": "ORT01 -> BillingCity",
+      "why": "human corrected ORT01 -> BillingCity",
+      "decision": "kept",
+      "detail": "accuracy 87.1% -> 93.3%, reviews 22 -> 21"
+    },
+    {
+      "rule": "ignore MANDT",
+      "why": "human said MANDT is not migrated",
+      "decision": "discarded (no improvement)",
+      "detail": "accuracy 93.3% -> 93.3%, reviews 21 -> 21"
+    },
+    {
+      "rule": "entityid -> AccountNumber",
+      "why": "human corrected entityid -> AccountNumber",
+      "decision": "kept",
+      "detail": "accuracy 93.3% -> 100.0%, reviews 21 -> 20"
+    },
+    {
+      "rule": "ignore subsidiary",
+      "why": "human said subsidiary is not migrated",
+      "decision": "discarded (no improvement)",
+      "detail": "accuracy 100.0% -> 100.0%, reviews 20 -> 20"
+    },
+    {
+      "rule": "KTOKD -> AccountNumber",
+      "why": "human corrected KTOKD -> AccountNumber",
+      "decision": "blocked by safety check",
+      "detail": [
+        "AccountNumber must be unique, but the column is only 1.3% unique"
+      ]
+    },
+    {
+      "rule": "ZZSTATUS -> IsActive__c",
+      "why": "human confirmed ZZSTATUS -> IsActive__c",
+      "decision": "kept",
+      "detail": "accuracy 100.0% -> 100.0%, reviews 20 -> 19"
+    },
+    {
+      "rule": "STRAS -> BillingStreet",
+      "why": "human confirmed STRAS -> BillingStreet",
+      "decision": "kept",
+      "detail": "accuracy 100.0% -> 100.0%, reviews 19 -> 18"
+    },
+    {
+      "rule": "ZZSALESREP -> SalesRep__c",
+      "why": "human confirmed ZZSALESREP -> SalesRep__c",
+      "decision": "kept",
+      "detail": "accuracy 100.0% -> 100.0%, reviews 18 -> 17"
+    },
+    {
+      "rule": "TELF1 -> Phone",
+      "why": "human confirmed TELF1 -> Phone",
+      "decision": "kept",
+      "detail": "accuracy 100.0% -> 100.0%, reviews 17 -> 16"
+    },
+    {
+      "rule": "REGIO -> BillingState",
+      "why": "human confirmed REGIO -> BillingState",
+      "decision": "kept",
+      "detail": "accuracy 100.0% -> 100.0%, reviews 16 -> 15"
+    },
+    {
+      "rule": "ZTERM -> PaymentTerms__c",
+      "why": "human confirmed ZTERM -> PaymentTerms__c",
+      "decision": "kept",
+      "detail": "accuracy 100.0% -> 100.0%, reviews 15 -> 14"
+    },
+    {
+      "rule": "KUNNR -> AccountNumber",
+      "why": "human confirmed KUNNR -> AccountNumber",
+      "decision": "kept",
+      "detail": "accuracy 100.0% -> 100.0%, reviews 14 -> 13"
+    },
+    {
+      "rule": "SMTP_ADDR -> Email__c",
+      "why": "human confirmed SMTP_ADDR -> Email__c",
+      "decision": "kept",
+      "detail": "accuracy 100.0% -> 100.0%, reviews 13 -> 12"
+    },
+    {
+      "rule": "PSTLZ -> BillingPostalCode",
+      "why": "human confirmed PSTLZ -> BillingPostalCode",
+      "decision": "kept",
+      "detail": "accuracy 100.0% -> 100.0%, reviews 12 -> 11"
+    },
+    {
+      "rule": "KLIMK -> CreditLimit__c",
+      "why": "human confirmed KLIMK -> CreditLimit__c",
+      "decision": "kept",
+      "detail": "accuracy 100.0% -> 100.0%, reviews 11 -> 10"
+    },
+    {
+      "rule": "ERDAT -> CustomerSince__c",
+      "why": "human confirmed ERDAT -> CustomerSince__c",
+      "decision": "kept",
+      "detail": "accuracy 100.0% -> 100.0%, reviews 10 -> 9"
+    },
+    {
+      "rule": "billstate -> BillingState",
+      "why": "human confirmed billstate -> BillingState",
+      "decision": "kept",
+      "detail": "accuracy 100.0% -> 100.0%, reviews 9 -> 8"
+    },
+    {
+      "rule": "billaddr1 -> BillingStreet",
+      "why": "human confirmed billaddr1 -> BillingStreet",
+      "decision": "kept",
+      "detail": "accuracy 100.0% -> 100.0%, reviews 8 -> 7"
+    },
+    {
+      "rule": "creditlimit -> CreditLimit__c",
+      "why": "human confirmed creditlimit -> CreditLimit__c",
+      "decision": "kept",
+      "detail": "accuracy 100.0% -> 100.0%, reviews 7 -> 6"
+    },
+    {
+      "rule": "datecreated -> CustomerSince__c",
+      "why": "human confirmed datecreated -> CustomerSince__c",
+      "decision": "kept",
+      "detail": "accuracy 100.0% -> 100.0%, reviews 6 -> 5"
+    },
+    {
+      "rule": "billzip -> BillingPostalCode",
+      "why": "human confirmed billzip -> BillingPostalCode",
+      "decision": "kept",
+      "detail": "accuracy 100.0% -> 100.0%, reviews 5 -> 4"
+    },
+    {
+      "rule": "companyname -> Name",
+      "why": "human confirmed companyname -> Name",
+      "decision": "kept",
+      "detail": "accuracy 100.0% -> 100.0%, reviews 4 -> 3"
+    },
+    {
+      "rule": "billcity -> BillingCity",
+      "why": "human confirmed billcity -> BillingCity",
+      "decision": "kept",
+      "detail": "accuracy 100.0% -> 100.0%, reviews 3 -> 2"
+    },
+    {
+      "rule": "salesrep -> SalesRep__c",
+      "why": "human confirmed salesrep -> SalesRep__c",
+      "decision": "kept",
+      "detail": "accuracy 100.0% -> 100.0%, reviews 2 -> 1"
+    },
+    {
+      "rule": "isactive -> IsActive__c",
+      "why": "human confirmed isactive -> IsActive__c",
+      "decision": "kept",
+      "detail": "accuracy 100.0% -> 100.0%, reviews 1 -> 0"
+    }
+  ]
+}

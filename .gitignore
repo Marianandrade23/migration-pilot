@@ -5,3 +5,5 @@ __pycache__/
 .pytest_cache/
 .ruff_cache/
 corrections.jsonl
+generated/
+target_crm.db

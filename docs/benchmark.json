@@ -1,0 +1,68 @@
+{
+  "mode": "rules (no AI model)",
+  "corrections_used": 25,
+  "rules_kept": 22,
+  "rules_discarded": 2,
+  "rules_blocked_by_safety": 1,
+  "train": {
+    "before": {
+      "accuracy": 0.8708333333333333,
+      "reviews": 22,
+      "per_scenario": {
+        "SAP export #1": 0.875,
+        "NetSuite export #1": 0.8666666666666667
+      }
+    },
+    "after": {
+      "accuracy": 1.0,
+      "reviews": 0,
+      "per_scenario": {
+        "SAP export #1": 1.0,
+        "NetSuite export #1": 1.0
+      }
+    }
+  },
+  "holdout": {
+    "before": {
+      "accuracy": 0.9138888888888889,
+      "reviews": 27,
+      "per_scenario": {
+        "SAP export #2": 0.875,
+        "NetSuite export #2": 0.8666666666666667,
+        "QuickBooks export": 1.0
+      }
+    },
+    "after": {
+      "accuracy": 1.0,
+      "reviews": 5,
+      "per_scenario": {
+        "SAP export #2": 1.0,
+        "NetSuite export #2": 1.0,
+        "QuickBooks export": 1.0
+      }
+    }
+  },
+  "per_scenario": [
+    {
+      "scenario": "SAP export #2",
+      "system": "sap",
+      "seen_in_training": true,
+      "before": 0.875,
+      "after": 1.0
+    },
+    {
+      "scenario": "NetSuite export #2",
+      "system": "netsuite",
+      "seen_in_training": true,
+      "before": 0.8666666666666667,
+      "after": 1.0
+    },
+    {
+      "scenario": "QuickBooks export",
+      "system": "quickbooks",
+      "seen_in_training": false,
+      "before": 1.0,
+      "after": 1.0
+    }
+  ]
+}

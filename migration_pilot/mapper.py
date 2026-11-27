@@ -20,6 +20,7 @@ from .llm import ChatModel
 from .profiler import ColumnProfile
 
 AUTO_APPROVE_AT = 0.85
+LEARNED_CONFIDENCE = 0.9
 
 # Which kinds of source data can go into each kind of target field.
 COMPATIBLE = {
@@ -67,10 +68,30 @@ def _fits(profile: ColumnProfile, field_type: str) -> bool:
     return profile.kind in COMPATIBLE.get(field_type, set())
 
 
-def rules_mapper(profiles: list[ColumnProfile], target: list[dict]) -> list[FieldMatch]:
-    """Match by expanded name words plus type fit. No AI involved."""
+def _learned(profiles: list[ColumnProfile], target: list[dict], skill) -> dict[str, FieldMatch]:
+    """Use-time safety: apply a learned rule only if its target exists and the data fits."""
+    if skill is None:
+        return {}
+    types = {str(t["name"]): str(t["type"]) for t in target}
+    out = {}
+    for p in profiles:
+        key = p.name.upper()
+        if key in skill.ignore:
+            out[p.name] = FieldMatch(p.name, None, 0.0, "learned: this column is never migrated")
+        elif key in skill.aliases:
+            tgt = skill.aliases[key]
+            if tgt in types and _fits(p, types[tgt]):
+                out[p.name] = FieldMatch(p.name, tgt, LEARNED_CONFIDENCE, "learned from a past correction")
+    return out
+
+
+def rules_mapper(profiles: list[ColumnProfile], target: list[dict], skill=None) -> list[FieldMatch]:
+    """Match by expanded name words plus type fit, after applying learned rules. No AI involved."""
+    learned = _learned(profiles, target, skill)
     scored = []
     for p in profiles:
+        if p.name in learned:
+            continue
         src_words = _words(p.name)
         for t in target:
             tgt_words = _words(str(t["name"])) | _words(str(t.get("description", "")))
@@ -80,7 +101,9 @@ def rules_mapper(profiles: list[ColumnProfile], target: list[dict]) -> list[Fiel
             score = 0.6 * overlap + 0.2 * spelling + (0.2 if fits else -0.5)
             scored.append((score, p.name, str(t["name"]), fits))
 
-    matches, used_src, used_tgt = [], set(), set()
+    matches = list(learned.values())
+    used_src = set(learned)
+    used_tgt = {m.target for m in learned.values() if m.target}
     for score, src, tgt, fits in sorted(scored, reverse=True):
         if src in used_src or tgt in used_tgt or score <= 0.2:
             continue
@@ -157,12 +180,32 @@ def review_matches(
     return matches
 
 
+def apply_learned(matches: list[FieldMatch], profiles, target: list[dict], skill) -> list[FieldMatch]:
+    """Override AI proposals with learned rules, and free up any field a learned rule claims."""
+    learned = _learned(profiles, target, skill)
+    claimed = {m.target for m in learned.values() if m.target}
+    out = []
+    for m in matches:
+        if m.source in learned:
+            out.append(learned[m.source])
+        elif m.target in claimed:
+            out.append(FieldMatch(m.source, None, 0.0, f"{m.target} is already taken by a learned rule"))
+        else:
+            out.append(m)
+    return out
+
+
 def propose_mappings(
-    profiles: list[ColumnProfile], target: list[dict], model: ChatModel | None = None,
+    profiles: list[ColumnProfile], target: list[dict], model: ChatModel | None = None, skill=None,
 ) -> list[FieldMatch]:
     """Propose matches with AI if a model is given, otherwise with rules, then review them."""
-    raw = ai_mapper(profiles, target, model) if model else rules_mapper(profiles, target)
-    return review_matches(raw, profiles, target)
+    if model:
+        raw = apply_learned(ai_mapper(profiles, target, model), profiles, target, skill)
+    else:
+        raw = rules_mapper(profiles, target, skill)
+    matches = review_matches(raw, profiles, target)
+    order = {p.name: i for i, p in enumerate(profiles)}
+    return sorted(matches, key=lambda m: order[m.source])
 
 
 def accuracy(matches: list[FieldMatch], truth: dict[str, str | None]) -> float:
